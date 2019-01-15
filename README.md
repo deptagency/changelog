@@ -10,13 +10,13 @@
 ### Install
 
 ```bash
-npm install --global @deptagency/changelog
+npm install @deptagency/changelog
 ```
 
 *or*
 
 ```bash
-yarn global add @deptagency/changelog
+yarn add @deptagency/changelog
 ```
 
 
