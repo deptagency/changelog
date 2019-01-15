@@ -1,6 +1,7 @@
 <p align="center">
     <img src="https://raw.githubusercontent.com/deptagency/changelog/master/changelog.png" width="128" height="128" alt="Changelog">
     <br>
+    <br>
     <b>Changelog</b>
     <br>
     Magically creates a YML file with metadata of a change entry
