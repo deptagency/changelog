@@ -1,0 +1,33 @@
+{
+  "name": "@deptagency/changelog",
+  "version": "1.1.0",
+  "description": "Magically creates a YML file with metadata of a change entry",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "enquirer": "^2.2.0",
+    "eslint": "^5.12.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-security": "^1.4.0",
+    "slugify": "^1.3.4",
+    "sprintf-js": "^1.1.2",
+    "write-yaml": "^1.0.0"
+  },
+  "keywords": [
+    "changelog",
+    "generator",
+    "magic",
+    "yml"
+  ],
+  "scripts": {
+    "test": "eslint ."
+  },
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "repository": "deptagency/changelog",
+  "author": "Dept Design & Technology GmbH"
+}
