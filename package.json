@@ -1,6 +1,6 @@
 {
   "name": "@deptagency/changelog",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Magically creates a YML file with metadata of a change entry",
   "main": "index.js",
   "files": [
