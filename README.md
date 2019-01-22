@@ -23,10 +23,11 @@ yarn add @deptagency/changelog
 
 ### Usage
 
+`package.json`
 ```json
 {
   "scripts": {
-    "changelog": "node ./node_modules/changelog"
+    "changelog": "node ./node_modules/@deptagency/changelog"
   }
 }
 ```
