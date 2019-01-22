@@ -1,6 +1,12 @@
 # Changelog / CHANGELOG
 
 
+### 1.1.2 (2019-01-22)
+
+* Update: Eslint package `5.12.0` → `5.12.1`
+* Update: Node minimum version `>=8.10.0` → `>=8.9.0`
+
+
 ### 1.1.1 (2019-01-22)
 
 * Edit: `package.json` script shortcut based on `deptagency` namespace
