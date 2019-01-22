@@ -1,6 +1,11 @@
 # Changelog / CHANGELOG
 
 
+### 1.1.1 (2019-01-22)
+
+* Edit: `package.json` script shortcut based on `deptagency` namespace
+
+
 ### 1.1.0 (2019-01-15)
 
 * Replace: Namespace `superreal` by `deptagency`
