@@ -1,6 +1,6 @@
 {
   "name": "@deptagency/changelog",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Magically creates a YML file with metadata of a change entry",
   "main": "index.js",
   "files": [
@@ -9,7 +9,7 @@
   "license": "MIT",
   "dependencies": {
     "enquirer": "^2.2.0",
-    "eslint": "^5.12.0",
+    "eslint": "^5.12.1",
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-security": "^1.4.0",
     "slugify": "^1.3.4",
@@ -26,7 +26,7 @@
     "test": "eslint ."
   },
   "engines": {
-    "node": ">=8.10.0"
+    "node": ">=8.9.0"
   },
   "repository": "deptagency/changelog",
   "author": "Dept Design & Technology GmbH"
