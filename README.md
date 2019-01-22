@@ -43,18 +43,20 @@ yarn changelog
 ```
 
 
-### YML file
+### CLI arguments (optional)
 
-##### Path
-`./changelog/unreleased/`
+| Argument | Description       | Default                   |
+|----------|-------------------| ------------------------- |
+| `path`   | File path         | `./changelog/unreleased/` |
+| `file`   | File name         | `%s-%s.yml`               |
 
-##### Format
-`%s-%s.yml`
 
-| Value  | Description       |  Slugified |
-|--------|-------------------|:----------:|
-| `%1$s` | Jira ticket       |   `true`   |
-| `%2$s` | Changelog message |   `true`   |
+##### File name format
+
+| Value  | Description       | Slugified |
+|--------|-------------------|---------- |
+| `%1$s` | Jira ticket       | `true`    |
+| `%2$s` | Changelog message | `true`    |
 
 
 ### Prompt

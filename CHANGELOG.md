@@ -1,6 +1,12 @@
 # Changelog / CHANGELOG
 
 
+### 1.2.0 (2019-01-22)
+
+* New: CLI arguments `path` and `file` (optional)
+* Update: Eslint package `5.12.1` → `4.19.1` (Node 8.9.0 compatible)
+
+
 ### 1.1.2 (2019-01-22)
 
 * Update: Eslint package `5.12.0` → `5.12.1`

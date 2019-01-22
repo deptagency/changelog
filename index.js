@@ -7,16 +7,34 @@
 /**
  * Required modules
  */
+const path = require('path');
 const yaml = require('write-yaml');
 const slugify = require('slugify');
+const minimist = require('minimist');
 const { prompt } = require('enquirer');
 const { sprintf } = require('sprintf-js');
 
 
 /**
+ * @const {Object}
+ */
+const argv = minimist(process.argv.slice(2));
+
+/**
  * @const {String}
  */
-const FILE_PATTERN = './changelog/unreleased/%s-%s.yml';
+const filepath = argv.path || './changelog/unreleased/';
+
+/**
+ * @const {String}
+ */
+const filename = argv.file || '%s-%s.yml';
+
+/**
+ * @const {String}
+ */
+const pattern = path.join(filepath, filename);
+
 
 /**
  * Questions
@@ -78,13 +96,13 @@ prompt([
 
     delete answers['confirmed'];
 
-    const filepath = sprintf(
-        FILE_PATTERN,
+    const file = sprintf(
+        pattern,
         slugify(answers['issue']),
         slugify(answers['message'].toLowerCase())
     );
 
-    yaml(filepath, answers, error => {
+    yaml(file, answers, error => {
         if (error) throw new Error(error);
     });
 
